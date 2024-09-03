@@ -1,0 +1,40 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="student-list-container">
+  <div class="inner-container">
+    <div class="search-container">
+      <!-- #searchTerm (ngModelChange)="searchStudent()" -->
+      <input [(ngModel)]="searchTerm" (ngModelChange)="searchStudent()" id="search" class="search" type="text" placeholder="Search"/>
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Student Code</th>
+            <th>First Name</th>
+            <th>Middle Name</th>
+            <th>Last Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Birth Date</th>
+            <th>Registered By</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+            <td>{{ student.studentCode }}</td>
+            <td>{{ student.firstName }}</td>
+            <td>{{ student.middleName }}</td>
+            <td>{{ student.lastName }}</td>
+            <td>{{ student.gender }}</td>
+            <td>{{ student.age}}</td>
+            <td>{{ student.birthdate | date: 'yyyy-MM-dd' }}</td>
+            <td>{{ student.admin.firstName }} {{ student.admin.lastName }}</td>
+            <td>{{ student.createdOn | date: 'yyyy-MM-dd HH:mm:ss' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

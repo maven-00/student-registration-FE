@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200px;
+}
+
+.fullname{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,49 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container">
+    <div class="inner-container">
+        <div class="info-data">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th>Date Created</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="create-container">
+            <h1> Create new Account</h1>
+            <form>
+                <input id="name" class="name" placeholder="Full Name" required/> <br/>
+                <select id="gender" class="gender" placeholder="Gender" required>
+                    <option class="disabled-gender" value="" disabled selected>Select Gender</option>
+                    <option value="Female">
+                        Female
+                    </option>
+                    <option value="Male">
+                        Male
+                    </option>
+                </select>
+                <br/>
+                <input id="age" class="age" placeholder="Age" required/><br/>
+                <input id="username" class="username" placeholder="Username" required/><br/>
+                <input id="password" class="password" placeholder="Password" required/><br/>
+            </form>
+            <div class="BTN-Add">
+                <button id="add" class="add">Create</button>
+            </div>
+        </div>
+    </div>
+</div>

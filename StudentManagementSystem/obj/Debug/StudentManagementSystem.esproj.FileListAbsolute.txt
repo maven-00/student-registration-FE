@@ -1,0 +1,2 @@
+C:\Users\RRA\source\repos\Task\20240827_web\StudentManagementSystem\StudentManagementSystem\obj\Debug\StudentManagementSystem.esproj.CoreCompileInputs.cache
+C:\Users\GPE\Tasks\newjoiners\StudentManagementSystem\StudentManagementSystem\obj\Debug\StudentManagementSystem.esproj.CoreCompileInputs.cache

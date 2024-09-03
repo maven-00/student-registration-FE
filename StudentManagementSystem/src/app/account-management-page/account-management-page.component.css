@@ -1,0 +1,83 @@
+.inner-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 0px 0px;
+}
+
+table, td, th{
+    border: 1px solid;
+}
+  
+table{
+    width: 70%;
+    border-collapse: collapse;
+} 
+  
+th{
+    min-width: 20vh;
+    width: auto;
+    justify-content: space-between;
+}
+
+select{
+    padding: 6px;
+    font-size: 15px;
+    margin: 0px 5px 9px 5px;
+    width: 253px;
+    border-radius: 5px;
+}
+
+option{
+    font-size: 15px;
+}
+
+.create-container{
+  padding: 0px 8vh 5vh 8vh;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+form{
+    padding: 5px;   
+}
+
+input{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 15rem;
+    padding: 6px;
+    font-size: 15px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+.BTN-Add{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #024791;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

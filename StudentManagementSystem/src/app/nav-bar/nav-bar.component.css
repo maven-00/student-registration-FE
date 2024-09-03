@@ -1,0 +1,35 @@
+.nav-container{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  margin-top: 20px;
+  padding: 10px;
+  border: solid 1px rgb(202, 199, 199);
+  border-radius: 8px;
+  box-shadow: 10px 4px 10px rgba(31, 23, 23, 0.1);
+  background-color: #fcfcfc;
+}
+
+a{
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  justify-content: space-evenly;
+  margin: 10px;
+  cursor: pointer;
+}
+
+a:hover{
+  background-color: #0056b3;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;   
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+span{
+  padding: 10px;
+}
